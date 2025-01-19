@@ -69,23 +69,29 @@ border: none;
   width: 1110px;
   height: 110px;
   border: 2px solid rgb(0, 0, 0);
+  border: none;
   margin: 0px auto;
-  margin-top: 70px;
+  padding: 40px;
+  margin-top: 100px;
 }
 .section{
- text-align: center;
+  text-align: center; 
+   
+
 }
 .all-imags{
-padding-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  padding-right: 20px;
 }
 
 /* main start */
 .main{
   width: 1110px;
-  height: 900px;
+  height: 1500px;
   border: 2px solid black;
   margin: 0px auto;
-  background-color: #AAAAAA;
+  background-color: #cccccc;
   margin-top: 80px;
   border: none;
 }
@@ -96,14 +102,15 @@ padding-right: 20px;
   font-family: "Poppins", serif;
 
 }
-.Collection{
+.Collection,.microphone{
   width: 325px;
   height: 476px;
   padding: 20px;
   padding-right: 10px;
   background-color: #ffffff;
   border: 2px solid black;
-  border: none;
+  margin: 10px;
+  /* border: none; */
 }
 .Tripod{
   margin-top: 16px;
@@ -118,6 +125,9 @@ padding-right: 20px;
   font-size: 24px;
   margin-top: 6px;
   
+}
+.main-box,.main-box-2{
+  display: flex;
 }
  
 
