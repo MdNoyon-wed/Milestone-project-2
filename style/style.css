@@ -26,18 +26,114 @@ ul li a{
 }
 .brand{
   font-weight: bold;
- 
   font-size: 24px;
   font-family: "Poppins", serif;
 
 }
-@media screen and (mix-width:576px) {
+/* main scetion */
+.box1{
+width: 582px;
+height: 270px;
+padding-left: 90px;
+border: 2px solid black;
+border: none;
+}
+.start{
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Poppins", serif;
+
+}
+.lorem{
+  font-weight: 600;
+  font-size: 16px;
+  color: #3A3A3A;
+  margin-top: 16px;
+}
+.Preebook{
+  width: 195px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #E02C6D;
+  margin-top: 16px;
+  border: none;
+
+}
+ .camera{
+  background-image: url(../influencer-gear/images/Circle\ design.svg);
+ }
+.section{
+  width: 1110px;
+  height: 110px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0px auto;
+  margin-top: 70px;
+}
+.section{
+ text-align: center;
+}
+.all-imags{
+padding-right: 20px;
+}
+
+/* main start */
+.main{
+  width: 1110px;
+  height: 900px;
+  border: 2px solid black;
+  margin: 0px auto;
+  background-color: #AAAAAA;
+  margin-top: 80px;
+  border: none;
+}
+.Popular{
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "Poppins", serif;
+
+}
+.Collection{
+  width: 325px;
+  height: 476px;
+  padding: 20px;
+  padding-right: 10px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border: none;
+}
+.Tripod{
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 28px;
+  font-family: "Poppins", serif;
+
+
+}
+.bolor{
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 6px;
+  
+}
+ 
+
+@media screen and (max-width:576px) {
   .brand,.nav-item{
     flex-direction: column;
     text-align: center;
     
   }
    
+}
+@media screen and (max-width:576px) {
+  .main{
+    flex-direction: column;
+   
+  }
 }
 
  
