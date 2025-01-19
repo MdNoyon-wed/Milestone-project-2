@@ -2,3 +2,42 @@
   margin: 0;
   padding: 0;
 }
+ 
+.display-flex {
+display: flex;
+
+}
+.nav-item{
+  list-style: none;
+  margin-left: 34px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+}
+.nav-link{
+  color: #3A3A3A;
+}
+ul li a{
+  text-decoration: none;
+}
+.navber{
+  margin: 90px;
+  justify-content: space-between;
+}
+.brand{
+  font-weight: bold;
+ 
+  font-size: 24px;
+  font-family: "Poppins", serif;
+
+}
+@media screen and (mix-width:576px) {
+  .brand,.nav-item{
+    flex-direction: column;
+    text-align: center;
+    
+  }
+   
+}
+
+ 
