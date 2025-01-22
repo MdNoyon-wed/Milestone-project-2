@@ -69,7 +69,7 @@ border: none;
 
 }
  .camera{
-  background-image: url(../influencer-gear/images/Circle\ design.svg);
+  background-image: url(.././images/Circle\ design.svg);
  }
 .section{
   width: 1110px;
@@ -155,7 +155,7 @@ border: none;
 /* footer end */
 .footer{
   width: 1900px;
-  height: 200px;
+  height: 350px;
   margin-top: 100px;
   background-color:#00025e ;
 }
