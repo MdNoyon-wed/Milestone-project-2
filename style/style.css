@@ -71,7 +71,7 @@ border: none;
  .camera{
   background-image: url(.././images/Circle\ design.svg);
  }
-.section{
+.All-Companey{
   width: 1110px;
   height: 110px;
   border: 2px solid rgb(0, 0, 0);
@@ -80,7 +80,7 @@ border: none;
   padding: 40px;
   margin-top: 100px;
 }
-.section{
+.All-Companey{
   text-align: center; 
    
 
@@ -92,7 +92,7 @@ border: none;
 }
 
 /* main start */
-.main{
+.do-samting{
   width: 1110px;
   height: 1670px;
   border: 2px solid black;
@@ -177,47 +177,86 @@ border: none;
   margin-top: 17px;
     
 }
- 
+
+ @media screen and (max-width:576px) {
+
+  .Journey{
+    width: 380px;
+    display: grid;
+    flex-direction: column-reverse; 
+  } 
+  .camera{
+    margin-top: 50px;
+    width: 60%;
+  }
+  .Journey,.camera{
+     
+  }
+
+ }
 
 @media screen and (max-width:576px) {
   .brand,.navber{
     flex-direction: column;
+    /* width: 380px; */
     
     
   }
+  .navber{
+    width: 380px;
+
+  }
    
 }
-@media screen and (max-width:586px) {
-  .section,.all-imags{
-    flex-direction: column;
-    text-align: center;
-    grid-template-columns: repeat(2,1fr);
-  
+@media screen and (max-width:576px) {
+  .All-Companey{
+    width: 380px;
+      
+  }
+  .all-imags{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* padding:  30px; */
+    /* margin: 20px; */
+    gap: 30px;
   }
   
 }
-@media screen and (max-width:586px) {
-  .main,.main-box,.main-box-2,.main-box-3{
+@media screen and (max-width:576px) {
+  .do-samting,.main-box,.main-box-2,.main-box-3{
     flex-direction: column;
     text-align: center;
    
   }
+  .do-samting{
+    width: 380px;
+  }
 }
-@media screen and (max-width:586px) {
+@media screen and (max-width:576px) {
   .products{
-    flex-direction: column;
-    align-items: center;
+    width: 380px;
+    /* height: 100%; */
+    padding-top: 3080px;
    
+  }
+  .products-title{
+     text-align: center; 
+    align-items: center; 
+    padding-top:  300px;
+    padding-bottom: 40px;
+     margin-left: -500px;
   }
   
 }
 
  @media screen and (max-width:586px){
   .footer{
-     position: relative;
-     text-align: center;
-     
-    
+    width:380px;
+    margin-top:  500px;
+    /* display: none; */
+    align-items: center;
+    margin-left: 60px;
+      
    
   }
   
